@@ -11,9 +11,9 @@ export const TASKS_DATA = [
   {
     id: 'tugas-2',
     subject: 'Mata Kuliah Digital Kreatif',
-    title: 'Tugas 2: Proyek Kampanye Media Sosial',
-    description: 'Membuat rancangan strategi konten digital kreatif untuk UMKM lokal.',
-    date: '13 Oktober 2026',
+    title: 'Tugas 2: AI dalam workflow kreatif',
+    description: 'AI dalam workflow kreatif, desain grafis, konten audio-visual, etika dan hak cipta, strategi kreator, serta penulisan skenario dan copywriting.',
+    date: '6 Oktober 2026',
     type: 'Tugas Kelompok',
   }
 ];

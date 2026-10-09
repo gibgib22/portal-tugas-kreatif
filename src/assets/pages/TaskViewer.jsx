@@ -1,7 +1,6 @@
 import React from 'react';
 import Tugas1DigitalKreatif from '../tasks/Tugas1DigitalKreatif';
-// Import tugas-tugas lain di sini jika nanti sudah ada
-// import Tugas2Berikutnya from '../tasks/Tugas2Berikutnya';
+import Tugas1Kelompok from '../tasks/Tugas1Kelompok';
 
 export default function TaskViewer({ taskId, onBack }) {
   // Fungsi untuk merender komponen tugas berdasarkan ID yang dipilih
@@ -11,8 +10,8 @@ export default function TaskViewer({ taskId, onBack }) {
         return <Tugas1DigitalKreatif onBack={onBack} />; // <-- TAMBAHKAN onBack={onBack} DI SINI!
       
       // Contoh jika nanti ada tugas kedua:
-      // case 'tugas-2':
-      //   return <Tugas2Berikutnya onBack={onBack} />;
+      case 'tugas-2':
+         return <Tugas1Kelompok onBack={onBack} />;
 
       default:
         return (
